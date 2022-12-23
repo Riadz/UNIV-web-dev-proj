@@ -1,0 +1,55 @@
+#container{
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  min-width: 495px;
+  min-height: 230px;
+  transform:translate(50%,25%);
+}
+
+.bigIndexBtn{
+  width: 35%;
+  height: 35%;
+  margin: 10px;
+
+  outline: 0;
+  border: 0;
+  font-size: 42px;
+  transition: all 0.3 ease;
+  cursor: pointer;
+
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 6px 15px 15px 2px rgba(0, 0, 0, 0.24);
+}
+.bigIndexBtn:hover{
+  transform: translate(0%,-3%);
+}
+
+#listerDiv{
+  border-top-left-radius: 15px;
+  background: #65B6BF no-repeat fixed center;
+  background-image: url("../img/lister.png");
+  background-size: 40%;
+  color: #C1E2E5;
+}
+#creerDiv{
+  border-top-right-radius: 15px;
+  background: #608641 no-repeat fixed center;
+  background-image: url("../img/creer.png");
+  background-size: 40%;
+  color: #A2C388;
+}
+#modifierDiv{
+  border-bottom-left-radius: 15px;
+  background: #ACE1A7 no-repeat fixed center;
+  background-image: url("../img/modifier.png");
+  background-size: 40%;
+  color: #DFF3DC;
+}
+#supprimerDiv{
+  border-bottom-right-radius: 15px;
+  background: #A12F35 no-repeat fixed center;
+  background-image: url("../img/supprimer.png");
+  background-size: 40%;
+  color: #D67A80;
+}
+

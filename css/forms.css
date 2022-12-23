@@ -1,0 +1,58 @@
+form{
+  animation: fade 1s ease-in-out forwards;
+}
+
+label{
+  display: block;
+  font-size: 30px;
+  color: #191919;
+}
+
+#container{
+  position: absolute;
+  width: 50%;
+  height: 50%;
+  min-width: 495px;
+  min-height: 230px;
+  transform:translate(50%,25%);
+}
+
+.changeBtn{
+  outline: 0;
+  margin-bottom: 2%;
+  padding: 13px;
+  font-size: 14px;
+
+  text-transform: uppercase;
+  background: #50A2AE;
+  color: #FFFFFF;
+  border: 2px solid white;
+}
+.changeBtn:first-of-type{
+  border: 2px solid #3EC07E;
+}
+.changeBtn:hover{
+  background: #38727A;
+}
+.changeBtn:active {
+  background: #004d80;
+}
+
+#joueurs,#pratiques{
+  display: none;
+}
+
+#errorDiv{
+  display: none;
+
+  margin: 5px;
+  padding: 10px;
+  height: auto;
+
+  font-size: 20px;
+
+  background-color: #E01E31;
+  border: 5px dashed black;
+
+  animation: fade 0.5s ease-in-out forwards;
+}
